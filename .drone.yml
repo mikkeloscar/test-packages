@@ -1,0 +1,4 @@
+build:
+  image: mikkeloscar/drone-pkgbuild
+  key: "test-key"
+
