@@ -1,9 +1,3 @@
-build:
-  image: golang:1.5
-  commands:
-    - ls -la
-
 publish:
   pkgbuild:
-    image: mikkeloscar/drone-pkgbuild
-    sign_key: "test-key"
+    image: mikkeloscar/maze-build
