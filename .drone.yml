@@ -1,4 +1,9 @@
+build:
+  image: golang:1.5
+  commands:
+    - ls -la
+
 publish:
   pkgbuild:
     image: mikkeloscar/drone-pkgbuild
-    key: "test-key"
+    sign_key: "test-key"
