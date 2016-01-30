@@ -1,3 +1,5 @@
 publish:
   pkgbuild:
     image: mikkeloscar/maze-build
+    packages:
+      - linux-mainline
