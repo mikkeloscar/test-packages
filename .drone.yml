@@ -1,5 +1,9 @@
 publish:
-  pkgbuild:
+  maze-build:
     image: mikkeloscar/maze-build
-    packages:
-      - linux-mainline
+
+publish:
+  maze-publish:
+    image: mikkeloscar/maze-publish
+    url: http://publish.moscar.net
+    repo: test
