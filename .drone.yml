@@ -6,4 +6,5 @@ publish:
   maze-publish:
     image: mikkeloscar/maze-publish
     url: http://publish.moscar.net
-    repo: test
+    repo: mikkeloscar/maze
+    auth_token: $$AUTH_TOKEN
