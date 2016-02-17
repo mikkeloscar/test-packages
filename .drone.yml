@@ -1,12 +1,11 @@
 publish:
   maze-build:
     image: mikkeloscar/maze-build
-    repo: http://publish.moscar.net/mikkeloscar/maze
-    packager: henning
+    repo: http://test.maze-ci.org/mikkeloscar/maze
 
 publish:
   maze-publish:
     image: mikkeloscar/maze-publish
-    url: http://publish.moscar.net
+    url: http://test.maze-ci.org
     repo: mikkeloscar/maze
     auth_token: $$AUTH_TOKEN
