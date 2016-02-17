@@ -2,7 +2,7 @@ publish:
   maze-build:
     image: mikkeloscar/maze-build
     repo: http://publish.moscar.net/mikkeloscar/maze
-    packger: henning
+    packager: henning
 
 publish:
   maze-publish:
