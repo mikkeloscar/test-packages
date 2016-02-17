@@ -12,3 +12,8 @@ aur:
   - profile-sync-daemon
   - gtk3-optional-csd
   - jdk
+  # mainline linx
+  - linux-mainline
+  - virtualbox-host-modules-mainline
+  - virtualbox-guest-modules-mainline
+  - bbswitch-mainline
