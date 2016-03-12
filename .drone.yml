@@ -1,11 +1,14 @@
 publish:
   maze-build:
     image: mikkeloscar/maze-build
-    repo: https://test.maze-ci.org/mikkeloscar/maze
+    # repo: https://test.maze-ci.org/mikkeloscar/maze
+    repo: http://192.168.0.109:8080/mikkeloscar/maze
 
 publish:
   maze-publish:
     image: mikkeloscar/maze-publish
-    url: https://test.maze-ci.org
+    # url: https://test.maze-ci.org
+    url: http://192.168.0.109:8080
     repo: mikkeloscar/maze
-    auth_token: $$AUTH_TOKEN
+    # auth_token: $$AUTH_TOKEN
+    auth_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoibWlra2Vsb3NjYXIiLCJ0eXBlIjoidXNlciJ9.jUbzfyqRPYroznQlIGG7rz0-QepYz-qV8A77H6dPZGc
