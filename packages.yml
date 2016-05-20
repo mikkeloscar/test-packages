@@ -17,3 +17,13 @@ aur:
   - virtualbox-host-modules-mainline
   - virtualbox-guest-modules-mainline
   - bbswitch-mainline
+  # android
+  - android-sdk
+  - android-sdk-build-tools
+  - android-sdk-platform-tools
+  - android-ndk
+  - android-support-repository
+  - android-google-apis
+  - android-google-repository
+  - android-studio
+  - android-sources
